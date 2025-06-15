@@ -28,7 +28,7 @@ function Home() {
           }}
         >
           <h3>I’m a Student</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+          <p>Select this if you are a student</p>
         </div>
         <div
           onClick={() => setSelectedRole("teacher")}
