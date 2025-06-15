@@ -6,7 +6,7 @@ const { Server } = require("socket.io");
 const app = express();
 const server = http.createServer(app);
 app.use(cors());
-const io = new Server(server, { cors: { origin: "*" } });
+const io = new Server(server, { cors: { origin: "https://vercel.com/rutvikas-projects-276183b3/live-polling-oqaf/DYj6zJmUMizakU1RDw7GH9NZmqcX" } });
 
 // State
 let currentPoll = null;
